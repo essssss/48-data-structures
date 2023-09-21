@@ -27,7 +27,7 @@ function countZeroes(arr) {
                 leftIdx = middle + 1;
             }
         } else {
-            return "help";
+            return "how did you get here?";
         }
     }
     return arr.length - firstZero;
